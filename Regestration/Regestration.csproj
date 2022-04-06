@@ -71,6 +71,24 @@
     <Content Include="index.html" />
     <Content Include="logo.html" />
     <Content Include="logo2.html" />
+    <Content Include="NewFolder1\Images\481.jpg" />
+    <Content Include="NewFolder1\Images\adelKhalil.jpg" />
+    <Content Include="NewFolder1\Images\admin.jpg" />
+    <Content Include="NewFolder1\Images\ahsan-nas.mp3" />
+    <Content Include="NewFolder1\Images\Akhenaton.jpg" />
+    <Content Include="NewFolder1\Images\Cairo-1.jpg" />
+    <Content Include="NewFolder1\Images\EGYPTMAP-1.jpg" />
+    <Content Include="NewFolder1\Images\fue3.jpg" />
+    <Content Include="NewFolder1\Images\FUElogo2.jpg" />
+    <Content Include="NewFolder1\Images\logo.jpg" />
+    <Content Include="NewFolder1\Images\Plane1.jpeg" />
+    <Content Include="NewFolder1\Images\Plane2.jpeg" />
+    <Content Include="NewFolder1\Images\Plane3.jpeg" />
+    <Content Include="NewFolder1\Images\Plane4.jpeg" />
+    <Content Include="NewFolder1\Images\Plane5.jpeg" />
+    <Content Include="NewFolder1\Images\Plane6.jpeg" />
+    <Content Include="NewFolder1\Images\Tahrir.MP4" />
+    <Content Include="NewFolder1\Images\tout.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +103,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
