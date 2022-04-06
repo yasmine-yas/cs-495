@@ -68,22 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="home.html" />
-    <Content Include="Images\481.jpg" />
-    <Content Include="Images\admin.jpg" />
-    <Content Include="Images\ahsan-nas.mp3" />
-    <Content Include="Images\Akhenaton.jpg" />
-    <Content Include="Images\Cairo-1.jpg" />
-    <Content Include="Images\EGYPTMAP-1.jpg" />
-    <Content Include="Images\Plane1.jpeg" />
-    <Content Include="Images\Plane2.jpeg" />
-    <Content Include="Images\Plane3.jpeg" />
-    <Content Include="Images\Plane4.jpeg" />
-    <Content Include="Images\Plane5.jpeg" />
-    <Content Include="Images\Plane6.jpeg" />
-    <Content Include="Images\Tahrir.MP4" />
+    <Content Include="Images\fue1.jpg" />
+    <Content Include="Images\fue2.jpg" />
+    <Content Include="Images\fue3.jpg" />
     <Content Include="index.html" />
     <Content Include="logo.html" />
     <Content Include="logo2.html" />
+    <Content Include="logo3.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
