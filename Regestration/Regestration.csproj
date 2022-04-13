@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Student.mdf" />
+    <Content Include="App_Data\Student_log.ldf">
+      <DependentUpon>Student.mdf</DependentUpon>
+    </Content>
     <Content Include="attendence.aspx" />
     <Content Include="coursepage.aspx" />
     <Content Include="home.html" />

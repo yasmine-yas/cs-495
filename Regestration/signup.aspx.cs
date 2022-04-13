@@ -13,5 +13,10 @@ namespace Regestration
         {
 
         }
+
+        protected void TextBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
