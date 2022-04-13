@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Regestration
 {
-    public partial class Registration : System.Web.UI.Page
+    public partial class signup : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

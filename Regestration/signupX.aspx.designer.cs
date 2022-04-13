@@ -10,7 +10,7 @@
 
 namespace Regestration
 {
-    public partial class signup1
+    public partial class signup
     {
 
         /// <summary>
