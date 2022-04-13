@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Regestration
 {
-    public partial class Studentprofile : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class studentProfile : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }

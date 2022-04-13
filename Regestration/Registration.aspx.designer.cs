@@ -7,11 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Regestration {
-    
-    
-    public partial class studentProfile {
-        
+
+namespace Regestration
+{
+    public partial class Registration
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>

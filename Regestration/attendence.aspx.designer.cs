@@ -7,12 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace Regestration
-{
-    public partial class attendence
-    {
-
+namespace Regestration {
+    
+    
+    public partial class attendence {
+        
         /// <summary>
         /// form1 control.
         /// </summary>

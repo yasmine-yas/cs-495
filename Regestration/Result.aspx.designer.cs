@@ -7,12 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace Regestration
-{
-    public partial class Result
-    {
-
+namespace Regestration {
+    
+    
+    public partial class Result {
+        
         /// <summary>
         /// form1 control.
         /// </summary>
