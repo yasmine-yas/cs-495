@@ -73,6 +73,7 @@
     <Content Include="Images\fue2.jpg" />
     <Content Include="Images\fue3.jpg" />
     <Content Include="index.html" />
+    <Content Include="links.aspx" />
     <Content Include="Links.html" />
     <Content Include="logo.html" />
     <Content Include="logo2.html" />
@@ -80,6 +81,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="links.aspx.cs">
+      <DependentUpon>links.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="links.aspx.designer.cs">
+      <DependentUpon>links.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
