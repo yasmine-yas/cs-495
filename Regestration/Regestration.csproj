@@ -68,10 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="home.html" />
+    <Content Include="Images.html" />
     <Content Include="Images\fue1.jpg" />
     <Content Include="Images\fue2.jpg" />
     <Content Include="Images\fue3.jpg" />
     <Content Include="index.html" />
+    <Content Include="Links.html" />
     <Content Include="logo.html" />
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
