@@ -73,10 +73,12 @@
                     <asp:Label ID="Label7" runat="server" Text="Sex"></asp:Label>
                 </td>
                 <td>
-                    <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-                    </asp:CheckBoxList>
-&nbsp;<asp:CheckBoxList ID="CheckBoxList2" runat="server">
-                    </asp:CheckBoxList>
+                    <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                        <asp:ListItem>Female</asp:ListItem>
+                    </asp:RadioButtonList>
+                    <asp:RadioButtonList ID="RadioButtonList2" runat="server" OnSelectedIndexChanged="RadioButtonList2_SelectedIndexChanged1">
+                        <asp:ListItem>Male</asp:ListItem>
+                    </asp:RadioButtonList>
                 </td>
             </tr>
         </table>

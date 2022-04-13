@@ -150,21 +150,21 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// CheckBoxList1 control.
+        /// RadioButtonList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
 
         /// <summary>
-        /// CheckBoxList2 control.
+        /// RadioButtonList2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList2;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList2;
     }
 }
