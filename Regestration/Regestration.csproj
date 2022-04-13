@@ -85,6 +85,7 @@
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="signup.aspx" />
+    <Content Include="signupX.aspx" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -145,6 +146,13 @@
     </Compile>
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signupX.aspx.cs">
+      <DependentUpon>signupX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signupX.aspx.designer.cs">
+      <DependentUpon>signupX.aspx</DependentUpon>
     </Compile>
     <Compile Include="Studentprofile.aspx.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>

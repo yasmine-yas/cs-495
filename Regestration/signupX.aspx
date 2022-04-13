@@ -157,7 +157,8 @@
                 </td>
                 <td class="auto-style9">
                     <asp:TextBox ID="txtLname" runat="server" Font-Names="Arial" Font-Size="Medium" ForeColor="#000066" Width="212px" OnTextChanged="txtLname_TextChanged"></asp:TextBox><br />
-                     <font face="aria"l color="#000022" size="-1">Example: Ahmed or Abdel Rahman            <font face="aria"l color="#000022" size="-1">Example: Ahmed or Abdel Rahman</font>
+                    <font face="aria" l color="#000022" size="-1">Example: Ahmed or Abdel Rahman
+                          face="aria"l color="#000022" size="-1">Example: Ahmed or Abdel Rahman</font>
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="This is a required field!!" Font-Names="Arial" Font-Size="Small" ForeColor="#CC0000"></asp:RequiredFieldValidator>
