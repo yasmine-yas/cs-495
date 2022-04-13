@@ -38,6 +38,10 @@
             height: 28px;
             width: 122px;
         }
+        .auto-style10 {
+            height: 28px;
+            width: 245px;
+        }
     </style>
 </head>
 <body>
@@ -63,7 +67,7 @@
                     <td class="auto-style8">
                         <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" NavigateUrl="~/Studentprofile.aspx">Student profile</asp:HyperLink>
                     </td>
-                    <td class="auto-style3">
+                    <td class="auto-style10">
                         <asp:HyperLink ID="HyperLink7" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" NavigateUrl="~/attendence.aspx">Attendence</asp:HyperLink>
                     </td>
                     <td class="auto-style3">
