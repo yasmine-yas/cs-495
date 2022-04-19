@@ -56,7 +56,7 @@
                     <asp:Label ID="Label11" runat="server" Text="B"></asp:Label>
                 </td>
                 <td>
-                    <asp:Label ID="Label15" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="Label15" runat="server" Text="Yara"></asp:Label>
                 </td>
             </tr>
             <tr>
@@ -70,7 +70,7 @@
                     <asp:Label ID="Label12" runat="server" Text="B"></asp:Label>
                 </td>
                 <td>
-                    <asp:Label ID="Label16" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="Label16" runat="server" Text="sameh"></asp:Label>
                 </td>
             </tr>
         </table>

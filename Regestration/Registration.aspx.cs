@@ -18,5 +18,20 @@ namespace Regestration
         {
 
         }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void No_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
