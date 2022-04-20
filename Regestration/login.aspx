@@ -21,7 +21,7 @@
             <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style1"></asp:TextBox>
         </div>
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style2" Width="196px"></asp:TextBox>
+        <asp:TextBox ID="txtPassword" runat="server" CssClass="auto-style2" Width="196px"></asp:TextBox>
     </form>
 </body>
 </html>

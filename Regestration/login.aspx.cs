@@ -13,5 +13,10 @@ namespace Regestration
         {
 
         }
+
+        protected void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
