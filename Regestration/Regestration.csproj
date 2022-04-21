@@ -92,6 +92,7 @@
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
+    <Content Include="SignaUpp.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="signupX.aspx" />
     <Content Include="Studentprofile.aspx" />
@@ -147,6 +148,13 @@
     </Compile>
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignaUpp.aspx.cs">
+      <DependentUpon>SignaUpp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignaUpp.aspx.designer.cs">
+      <DependentUpon>SignaUpp.aspx</DependentUpon>
     </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>

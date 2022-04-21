@@ -50,7 +50,7 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2">
-                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" Font-Underline="True" ForeColor="#006666" NavigateUrl="~/signup.aspx">SIGN UP</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" Font-Underline="True" ForeColor="#006666" NavigateUrl="~/SignaUpp.aspx">SIGN UP</asp:HyperLink>
                     </td>
                     <td class="auto-style7">
                         <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" Font-Italic="False" Font-Names="Arial" ForeColor="#006666" NavigateUrl="~/login.aspx">LOG IN</asp:HyperLink>

@@ -6,22 +6,37 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            margin-left: 48px;
-        }
         .auto-style2 {
             margin-left: 59px;
+        }
+        .auto-style3 {
+            width: 100%;
+        }
+        .auto-style4 {
+            margin-left: 63px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style1"></asp:TextBox>
-        </div>
-        <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
-        <asp:TextBox ID="txtPassword" runat="server" CssClass="auto-style2" Width="196px"></asp:TextBox>
+        <table class="auto-style3">
+            <tr>
+                <td>
+            <asp:Label ID="Label3" runat="server" Text="Name"></asp:Label>
+                </td>
+                <td>
+            <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style4" Width="183px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+        <asp:Label ID="Label4" runat="server" Text="Password"></asp:Label>
+                </td>
+                <td>
+        <asp:TextBox ID="txtPassword0" runat="server" CssClass="auto-style2" Width="196px"></asp:TextBox>
+                </td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
