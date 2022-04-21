@@ -12,6 +12,13 @@
         .auto-style2 {
             width: 347px;
         }
+        .auto-style3 {
+            width: 347px;
+            height: 73px;
+        }
+        .auto-style4 {
+            height: 73px;
+        }
     </style>
 </head>
 <body>
@@ -68,6 +75,19 @@
             </tr>
             <tr>
                 <td class="auto-style2">
+                    <asp:Label ID="Label21" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Sex"></asp:Label>
+                    <br />
+                </td>
+                <td>
+                    <asp:RadioButtonList ID="RadioButtonList2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
+                        <asp:ListItem>Female</asp:ListItem>
+                        <asp:ListItem>Male</asp:ListItem>
+                    </asp:RadioButtonList>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
                     <asp:Label ID="Label15" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Country"></asp:Label>
                 </td>
                 <td>
@@ -113,10 +133,10 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">
+                <td class="auto-style3">
                     <asp:Label ID="Label19" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Mobile Number"></asp:Label>
                 </td>
-                <td>
+                <td class="auto-style4">
                     <asp:TextBox ID="TxtMobile" runat="server"></asp:TextBox>
                     <br />
                     <br />
@@ -125,6 +145,13 @@
         </table>
         <div>
         </div>
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <asp:Button ID="Button1" runat="server" BackColor="#006666" Font-Bold="True" Font-Size="Large" ForeColor="White" Text="Submit" />
+                </td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
