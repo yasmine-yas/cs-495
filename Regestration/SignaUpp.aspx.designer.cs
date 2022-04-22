@@ -123,13 +123,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label21;
 
         /// <summary>
-        /// RadioButtonList2 control.
+        /// rblSex control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList2;
+        protected global::System.Web.UI.WebControls.RadioButtonList rblSex;
 
         /// <summary>
         /// Label15 control.
@@ -141,13 +141,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label15;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// ddlCountry control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCountry;
 
         /// <summary>
         /// Label16 control.
@@ -222,12 +222,12 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.TextBox TxtMobile;
 
         /// <summary>
-        /// Button1 control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
     }
 }

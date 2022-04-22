@@ -19,11 +19,18 @@
         .auto-style4 {
             height: 73px;
         }
+        .auto-style5 {
+            width: 347px;
+            height: 56px;
+        }
+        .auto-style6 {
+            height: 56px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <table class="auto-style1">
+        <table class="auto-style1" style="background-color: #808080; background-image: none;">
             <tr>
                 <td class="auto-style2">
                     <asp:Label ID="Label1" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="First Name"></asp:Label>
@@ -74,12 +81,12 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">
+                <td class="auto-style5">
                     <asp:Label ID="Label21" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Sex"></asp:Label>
                     <br />
                 </td>
-                <td>
-                    <asp:RadioButtonList ID="RadioButtonList2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
+                <td class="auto-style6">
+                    <asp:RadioButtonList ID="RadioButtonList2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" RepeatDirection="Horizontal">
                         <asp:ListItem>Female</asp:ListItem>
                         <asp:ListItem>Male</asp:ListItem>
                     </asp:RadioButtonList>
@@ -91,7 +98,7 @@
                     <asp:Label ID="Label15" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Country"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:DropDownList ID="DropDownList1" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
                         <asp:ListItem>Egypt</asp:ListItem>
                         <asp:ListItem>France</asp:ListItem>
                         <asp:ListItem>England </asp:ListItem>
@@ -117,7 +124,7 @@
                     <asp:Label ID="Label17" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Password"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TxtPassword" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password"></asp:TextBox>
                     <br />
                     <br />
                 </td>
@@ -127,7 +134,7 @@
                     <asp:Label ID="Label18" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Confirm Password"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="Txtpassword1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Txtpassword1" runat="server" TextMode="Password"></asp:TextBox>
                     <br />
                     <br />
                 </td>
