@@ -57,3 +57,5 @@ C:\Users\Yasmin\OneDrive\Documents\GitHub\cs-495\Regestration\obj\Debug\Regestra
 C:\Users\Yasmin\OneDrive\Documents\GitHub\cs-495\Regestration\obj\Debug\Regestration.csproj.CopyComplete
 C:\Users\Yasmin\OneDrive\Documents\GitHub\cs-495\Regestration\obj\Debug\Regestration.dll
 C:\Users\Yasmin\OneDrive\Documents\GitHub\cs-495\Regestration\obj\Debug\Regestration.pdb
+C:\Users\Yasmin\OneDrive\Documents\GitHub\cs-495\Regestration\bin\System.Data.SqlClient.dll
+C:\Users\Yasmin\OneDrive\Documents\GitHub\cs-495\Regestration\bin\System.Data.SqlClient.xml

@@ -26,6 +26,13 @@
         .auto-style6 {
             height: 56px;
         }
+        .auto-style7 {
+            width: 347px;
+            height: 51px;
+        }
+        .auto-style8 {
+            height: 51px;
+        }
     </style>
 </head>
 <body>
@@ -42,10 +49,10 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">
+                <td class="auto-style7">
                     <asp:Label ID="Label11" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Last Name"></asp:Label>
                 </td>
-                <td>
+                <td class="auto-style8">
                     <asp:TextBox ID="txtLname" runat="server"></asp:TextBox>
                     <br />
                     <br />
@@ -86,7 +93,7 @@
                     <br />
                 </td>
                 <td class="auto-style6">
-                    <asp:RadioButtonList ID="RadioButtonList2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" RepeatDirection="Horizontal">
+                    <asp:RadioButtonList ID="rblSex" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" RepeatDirection="Horizontal">
                         <asp:ListItem>Female</asp:ListItem>
                         <asp:ListItem>Male</asp:ListItem>
                     </asp:RadioButtonList>
@@ -98,7 +105,7 @@
                     <asp:Label ID="Label15" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Country"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList1" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
+                    <asp:DropDownList ID="ddlCountry" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
                         <asp:ListItem>Egypt</asp:ListItem>
                         <asp:ListItem>France</asp:ListItem>
                         <asp:ListItem>England </asp:ListItem>
@@ -155,7 +162,16 @@
         <table class="auto-style1">
             <tr>
                 <td>
-                    <asp:Button ID="Button1" runat="server" BackColor="#006666" Font-Bold="True" Font-Size="Large" ForeColor="White" Text="Submit" />
+                    <asp:Button ID="btnSubmit" runat="server" BackColor="#006666" Font-Bold="True" Font-Size="Large" ForeColor="White" Text="Submit" OnClick="btnSubmit_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="lblMsg" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="X-Large" Font-Underline="True" ForeColor="#006666"></asp:Label>
                 </td>
             </tr>
         </table>
