@@ -94,8 +94,8 @@
                 </td>
                 <td class="auto-style6">
                     <asp:RadioButtonList ID="rblSex" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" RepeatDirection="Horizontal">
-                        <asp:ListItem>Female</asp:ListItem>
-                        <asp:ListItem>Male</asp:ListItem>
+                        <asp:ListItem Value="F">Female</asp:ListItem>
+                        <asp:ListItem Value="M">Male</asp:ListItem>
                     </asp:RadioButtonList>
                     <br />
                 </td>

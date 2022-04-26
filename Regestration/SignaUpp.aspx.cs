@@ -26,7 +26,7 @@ namespace Regestration
 
 
             // Create sql insert stament
-            string strInsert = String.Format("INSERT INTO Student values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7},'{8}','{9}','{10}')", TxtFname.Text, txtLname.Text, txtEmail.Text, TxtUser.Text, Calendar1.AccessKey, rblSex.SelectedValue, ddlCountry.SelectedValue, Txtaddress.Text, TxtPassword.Text, Txtpassword1.Text, TxtMobile.Text);
+            string strInsert = String.Format("INSERT INTO [dbo].[Student] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')", TxtFname.Text, txtLname.Text, txtEmail.Text, TxtUser.Text, Calendar1.SelectedDate, rblSex.SelectedValue, ddlCountry.SelectedValue, Txtaddress.Text, TxtPassword.Text, TxtMobile.Text);
 
 
             // create sql command
@@ -36,20 +36,16 @@ namespace Regestration
             //execute the sql command 
             //cmdInsert.ExecuteNonQuery();
 
-            try
-            {
+            
                 conn.Open();
                 cmdInsert.ExecuteNonQuery();
                 conn.Close();
 
-            }
-            catch
-            {
-
+          
 
 
                 lblMsg.Text = "Welcome" + " " + txtLname.Text + "your account has been created successfully";
-            }
+          
 
 
         }
