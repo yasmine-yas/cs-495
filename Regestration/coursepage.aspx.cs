@@ -13,5 +13,10 @@ namespace Regestration
         {
 
         }
+
+        protected void btnShow_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
