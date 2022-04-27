@@ -110,13 +110,15 @@
                 <td class="auto-style10">
                     <asp:TextBox ID="txtLname" runat="server"></asp:TextBox>
                     <br />
+                    <font face="arial"color="#00FF00" size="-1">Example:Ahmed or Abdel Rahman</font>
+                    
                     <br />
                 </td>
                 <td class="auto-style14">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style18">
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="Invalid first name format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="Invalid Last name format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
                 </td>
                 <td class="auto-style8">
                     &nbsp;</td>
@@ -128,13 +130,16 @@
                 <td class="auto-style9">
                     <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                     <br />
+                    <font face="arial"color="#00FF00" size="-1">Example:User@fue.edu.eg</font>
+                    <br />
                     <br />
                 </td>
                 <td class="auto-style13">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtEmail" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style17">
-                    &nbsp;</td>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtEmail" ErrorMessage="Invalid Email format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                </td>
                 <td>
                     &nbsp;</td>
             </tr>
@@ -151,7 +156,8 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TxtUser" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style17">
-                    &nbsp;</td>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TxtUser" ErrorMessage="Invalid User Name format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="\w{8,}"></asp:RegularExpressionValidator>
+                </td>
                 <td>
                     &nbsp;</td>
             </tr>
@@ -240,7 +246,8 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TxtPassword" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style17">
-                    &nbsp;</td>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="TxtPassword" ErrorMessage="Should be between 8 and 16" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="\w{8,12}"></asp:RegularExpressionValidator>
+                </td>
                 <td>
                     &nbsp;</td>
             </tr>
@@ -257,7 +264,8 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="Txtpassword1" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style17">
-                    &nbsp;</td>
+                    <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TxtPassword" ControlToValidate="Txtpassword1" ErrorMessage="No matching password" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon"></asp:CompareValidator>
+                </td>
                 <td>
                     &nbsp;</td>
             </tr>
@@ -268,13 +276,16 @@
                 <td class="auto-style12">
                     <asp:TextBox ID="TxtMobile" runat="server"></asp:TextBox>
                     <br />
+                    <font face="arial"color="#00FF00" size="-1">Example:0122 1234567</font>
+                    <br />
                     <br />
                 </td>
                 <td class="auto-style16">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TxtMobile" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style20">
-                    &nbsp;</td>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator6" runat="server" ControlToValidate="TxtMobile" ErrorMessage="Invalid mobile number format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="[0][1][0-2][0-24-9]\s\d{7}"></asp:RegularExpressionValidator>
+                </td>
                 <td class="auto-style4">
                     &nbsp;</td>
             </tr>
