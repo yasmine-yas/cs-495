@@ -50,5 +50,9 @@ namespace Regestration
 
         }
 
+        protected void TxtFname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
