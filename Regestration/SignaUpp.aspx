@@ -34,34 +34,49 @@
             height: 51px;
         }
         .auto-style9 {
-            width: 436px;
+            width: 326px;
         }
         .auto-style10 {
             height: 51px;
-            width: 436px;
+            width: 326px;
         }
         .auto-style11 {
             height: 56px;
-            width: 436px;
+            width: 326px;
         }
         .auto-style12 {
             height: 73px;
-            width: 436px;
+            width: 326px;
         }
         .auto-style13 {
-            width: 255px;
+            width: 240px;
         }
         .auto-style14 {
             height: 51px;
-            width: 255px;
+            width: 240px;
         }
         .auto-style15 {
             height: 56px;
-            width: 255px;
+            width: 240px;
         }
         .auto-style16 {
             height: 73px;
-            width: 255px;
+            width: 240px;
+        }
+        .auto-style17 {
+            width: 276px;
+        }
+        .auto-style18 {
+            height: 51px;
+            width: 276px;
+        }
+        .auto-style19 {
+            height: 56px;
+            width: 276px;
+        }
+        .auto-style20 {
+            height: 73px;
+            width: 276px;
         }
     </style>
 </head>
@@ -75,13 +90,16 @@
                 <td class="auto-style9">
                     <asp:TextBox ID="TxtFname" runat="server" OnTextChanged="TxtFname_TextChanged"></asp:TextBox>
                     <br />
+                    <font face="arial"color="#00FF00" size="-1">Example:Ahmed or Abdel Rahman</font>
+                    
                     <br />
                 </td>
                 <td class="auto-style13">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtFname" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td>
-                    &nbsp;</td>
+                <td class="auto-style17">
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TxtFname" ErrorMessage="Invalid first name format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
+                </td>
                 <td>
                     &nbsp;</td>
             </tr>
@@ -97,8 +115,9 @@
                 <td class="auto-style14">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style8">
-                    &nbsp;</td>
+                <td class="auto-style18">
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="Invalid first name format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
+                </td>
                 <td class="auto-style8">
                     &nbsp;</td>
             </tr>
@@ -114,7 +133,7 @@
                 <td class="auto-style13">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtEmail" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td>
+                <td class="auto-style17">
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
@@ -131,7 +150,7 @@
                 <td class="auto-style13">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TxtUser" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td>
+                <td class="auto-style17">
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
@@ -146,7 +165,7 @@
                 </td>
                 <td class="auto-style13">
                     &nbsp;</td>
-                <td>
+                <td class="auto-style17">
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
@@ -165,7 +184,7 @@
                 </td>
                 <td class="auto-style15">
                     &nbsp;</td>
-                <td class="auto-style6">
+                <td class="auto-style19">
                     &nbsp;</td>
                 <td class="auto-style6">
                     &nbsp;</td>
@@ -187,7 +206,7 @@
                 </td>
                 <td class="auto-style13">
                     &nbsp;</td>
-                <td>
+                <td class="auto-style17">
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
@@ -203,7 +222,7 @@
                 </td>
                 <td class="auto-style13">
                     &nbsp;</td>
-                <td>
+                <td class="auto-style17">
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
@@ -220,7 +239,7 @@
                 <td class="auto-style13">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TxtPassword" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td>
+                <td class="auto-style17">
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
@@ -237,7 +256,7 @@
                 <td class="auto-style13">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="Txtpassword1" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td>
+                <td class="auto-style17">
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
@@ -254,7 +273,7 @@
                 <td class="auto-style16">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TxtMobile" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style4">
+                <td class="auto-style20">
                     &nbsp;</td>
                 <td class="auto-style4">
                     &nbsp;</td>
