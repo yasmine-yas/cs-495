@@ -121,27 +121,27 @@
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtLname" ErrorMessage="Invalid Last name format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
                 </td>
                 <td class="auto-style8">
-                    &nbsp;</td>
+                    </td>
             </tr>
             <tr>
-                <td class="auto-style2">
+                <td class="auto-style3">
                     <asp:Label ID="Label12" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="E-mail"></asp:Label>
                 </td>
-                <td class="auto-style9">
+                <td class="auto-style12">
                     <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                     <br />
                     <font face="arial"color="#00FF00" size="-1">Example:User@fue.edu.eg</font>
                     <br />
                     <br />
                 </td>
-                <td class="auto-style13">
+                <td class="auto-style16">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtEmail" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style17">
+                <td class="auto-style20">
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtEmail" ErrorMessage="Invalid Email format" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </td>
-                <td>
-                    &nbsp;</td>
+                <td class="auto-style4">
+                    </td>
             </tr>
             <tr>
                 <td class="auto-style2">
