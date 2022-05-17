@@ -189,7 +189,8 @@
                     <br />
                 </td>
                 <td class="auto-style15">
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TxtUser" ErrorMessage="RequiredFieldValidator" Font-Names="Arial" Font-Size="Small" ForeColor="Maroon">This is a required field</asp:RequiredFieldValidator>
+                </td>
                 <td class="auto-style19">
                     &nbsp;</td>
                 <td class="auto-style6">
