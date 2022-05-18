@@ -78,6 +78,7 @@
     <Content Include="Background.aspx" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
+    <Content Include="Footer.html" />
     <Content Include="FUE LOGO.jpg" />
     <Content Include="home.html" />
     <Content Include="HomeWeb.html" />
@@ -89,6 +90,7 @@
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
     <Content Include="logo4.html" />
+    <Content Include="Newevents.html" />
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
