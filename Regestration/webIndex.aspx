@@ -25,10 +25,7 @@
             width: 866px;
             height: 98px;
         }
-        .auto-style17 {
-            height: 13px;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -57,13 +54,8 @@
                         </asp:DropDownList>
                     </td>
                     <td class="auto-style13">
-                        <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="Black" Text="Sign In"></asp:Label>
+                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="#000066" NavigateUrl="~/SignaUpp.aspx">Sign Up</asp:HyperLink>
                         <br />
-                        <asp:DropDownList ID="DropDownList3" runat="server" Width="167px">
-                            <asp:ListItem></asp:ListItem>
-                            <asp:ListItem>Sign In Student</asp:ListItem>
-                            <asp:ListItem>Sign In Staff</asp:ListItem>
-                        </asp:DropDownList>
                         <br />
                     </td>
                     <td class="auto-style5">
@@ -79,13 +71,8 @@
                         </asp:DropDownList>
                     </td>
                     <td class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="Black" Text="Sign Up"></asp:Label>
                         <br />
-                        <asp:DropDownList ID="DropDownList1" runat="server" Width="167px">
-                            <asp:ListItem></asp:ListItem>
-                            <asp:ListItem>Sign Up Student</asp:ListItem>
-                            <asp:ListItem>Sign Up Staff</asp:ListItem>
-                        </asp:DropDownList>
+                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="#000066" NavigateUrl="~/SignaUpp.aspx">Sign Up</asp:HyperLink>
                     </td>
                 </tr>
                 </table>
