@@ -5,12 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 791px;
+        }
+        .auto-style2 {
+            height: 26px;
+        }
+    </style>
 </head>
 <body style="height: 1147px; width: 1818px;">
-    <form id="form1" runat="server">
-        <div>
-            <asp:Image ID="Image1" runat="server" ImageAlign="AbsMiddle" ImageUrl="~/webImages/OIP.jpg" Width="1569px" Height="562px" />
-        </div>
-    </form>
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style2" style="background-image: url('webImages/download.jpg')"></td>
+        </tr>
+    </table>
 </body>
 </html>
