@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="links.aspx.cs" Inherits="Regestration.links" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="linksWEB.aspx.cs" Inherits="Regestration.links" %>
 
 <!DOCTYPE html>
 <script runat="server">

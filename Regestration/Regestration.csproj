@@ -75,19 +75,14 @@
       <DependentUpon>Student.mdf</DependentUpon>
     </Content>
     <Content Include="attendence.aspx" />
-    <Content Include="Banner-FUE-Europe-cole2short.jpg" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
     <Content Include="FUE LOGO.jpg" />
     <Content Include="home.html" />
-    <Content Include="HomePage.html" />
+    <Content Include="HomeWeb.html" />
     <Content Include="Images.html" />
-    <Content Include="Images\fue1.jpg" />
-    <Content Include="Images\fue2.jpg" />
-    <Content Include="Images\fue3.jpg" />
     <Content Include="index.html" />
-    <Content Include="links.aspx" />
-    <Content Include="Links.html" />
+    <Content Include="linksWEB.aspx" />
     <Content Include="login.aspx" />
     <Content Include="logo.html" />
     <Content Include="logo2.html" />
@@ -127,12 +122,12 @@
     <Compile Include="coursepage.aspx.designer.cs">
       <DependentUpon>coursepage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="links.aspx.cs">
-      <DependentUpon>links.aspx</DependentUpon>
+    <Compile Include="linksWEB.aspx.cs">
+      <DependentUpon>linksWEB.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="links.aspx.designer.cs">
-      <DependentUpon>links.aspx</DependentUpon>
+    <Compile Include="linksWEB.aspx.designer.cs">
+      <DependentUpon>linksWEB.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
