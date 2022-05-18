@@ -75,9 +75,12 @@
       <DependentUpon>Student.mdf</DependentUpon>
     </Content>
     <Content Include="attendence.aspx" />
+    <Content Include="Banner-FUE-Europe-cole2short.jpg" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
+    <Content Include="FUE LOGO.jpg" />
     <Content Include="home.html" />
+    <Content Include="HomePage.html" />
     <Content Include="Images.html" />
     <Content Include="Images\fue1.jpg" />
     <Content Include="Images\fue2.jpg" />
@@ -97,6 +100,10 @@
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="webImages.html" />
+    <Content Include="webImages\Banner-FUE-Europe-cole2short.jpg" />
+    <Content Include="webImages\FUE LOGO.jpg" />
+    <Content Include="webIndex.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="attendence.aspx.cs">
@@ -183,6 +190,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webIndex.aspx.cs">
+      <DependentUpon>webIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webIndex.aspx.designer.cs">
+      <DependentUpon>webIndex.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
