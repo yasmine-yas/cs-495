@@ -75,6 +75,7 @@
       <DependentUpon>Student.mdf</DependentUpon>
     </Content>
     <Content Include="attendence.aspx" />
+    <Content Include="Background.aspx" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
     <Content Include="FUE LOGO.jpg" />
@@ -87,6 +88,7 @@
     <Content Include="logo.html" />
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
+    <Content Include="logo4.html" />
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
@@ -97,8 +99,13 @@
     <Content Include="WebForm1.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\Banner-FUE-Europe-cole2short.jpg" />
+    <Content Include="webImages\download.jpg" />
     <Content Include="webImages\FUE LOGO.jpg" />
+    <Content Include="webImages\OIP %281%29.jpg" />
+    <Content Include="webImages\OIP %282%29.jpg" />
+    <Content Include="webImages\OIP.jpg" />
     <Content Include="webIndex.aspx" />
+    <Content Include="WEBVideo.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="attendence.aspx.cs">
@@ -107,6 +114,13 @@
     </Compile>
     <Compile Include="attendence.aspx.designer.cs">
       <DependentUpon>attendence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background.aspx.cs">
+      <DependentUpon>Background.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background.aspx.designer.cs">
+      <DependentUpon>Background.aspx</DependentUpon>
     </Compile>
     <Compile Include="ComputerArchticrure.aspx.cs">
       <DependentUpon>ComputerArchticrure.aspx</DependentUpon>
