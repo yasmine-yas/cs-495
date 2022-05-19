@@ -90,6 +90,7 @@
     <Content Include="logo2.html" />
     <Content Include="logo3.html" />
     <Content Include="logo4.html" />
+    <Content Include="Navigation.html" />
     <Content Include="Newevents.html" />
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
