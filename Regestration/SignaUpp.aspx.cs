@@ -21,12 +21,13 @@ namespace Regestration
             // create connection object
             SqlConnection conn = new SqlConnection();
 
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Student.mdf;Integrated Security=True";
+            conn.ConnectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename =|DataDirectory|Project.mdf; Integrated Security = True";
+            
             //create insert statment
 
 
             // Create sql insert stament
-            string strInsert = String.Format("INSERT INTO [dbo].[Student] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')", TxtFname.Text, txtLname.Text, txtEmail.Text, TxtUser.Text, Calendar1.SelectedDate, rblSex.SelectedValue, ddlCountry.SelectedValue, Txtaddress.Text, TxtPassword.Text, TxtMobile.Text);
+            string strInsert = String.Format("INSERT INTO [dbo].[Personn] values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')", TxtFname.Text, txtLname.Text, txtEmail.Text, TxtUser.Text, Calendar1.SelectedDate, rblSex.SelectedValue, ddlCountry.SelectedValue, Txtaddress.Text, TxtPassword.Text, TxtMobile.Text);
 
 
             // create sql command

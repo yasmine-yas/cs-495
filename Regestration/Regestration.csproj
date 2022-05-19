@@ -70,9 +70,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Student.mdf" />
-    <Content Include="App_Data\Student_log.ldf">
-      <DependentUpon>Student.mdf</DependentUpon>
+    <Content Include="App_Data\Project.mdf" />
+    <Content Include="App_Data\Project_log.ldf">
+      <DependentUpon>Project.mdf</DependentUpon>
     </Content>
     <Content Include="attendence.aspx" />
     <Content Include="Background.aspx" />
@@ -92,6 +92,7 @@
     <Content Include="logo4.html" />
     <Content Include="Navigation.html" />
     <Content Include="Newevents.html" />
+    <Content Include="personSIGNup.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
@@ -153,6 +154,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="personSIGNup.aspx.cs">
+      <DependentUpon>personSIGNup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personSIGNup.aspx.designer.cs">
+      <DependentUpon>personSIGNup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">
