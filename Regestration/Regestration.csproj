@@ -95,6 +95,7 @@
     <Content Include="Result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="SignaUpp.aspx" />
+    <Content Include="SignUp.aspx" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
@@ -181,6 +182,13 @@
     <Compile Include="SignaUpp.aspx.designer.cs">
       <DependentUpon>SignaUpp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Studentprofile.aspx.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -220,9 +228,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UserPic\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
