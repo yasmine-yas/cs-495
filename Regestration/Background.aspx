@@ -13,13 +13,17 @@
         .auto-style2 {
             height: 26px;
         }
+        body{
+            background-image:url("webImages/download.jpg")
+        }
     </style>
 </head>
-<body style="height: 1147px; width: 1818px;">
-    <table class="auto-style1">
+<body style="height: 1156px; margin-top:22px; width: 2232px;">
+
+    <%--<table class="auto-style1">
         <tr>
             <td class="auto-style2" style="background-image: url('webImages/download.jpg')"></td>
         </tr>
-    </table>
+    </table>--%>
 </body>
 </html>
