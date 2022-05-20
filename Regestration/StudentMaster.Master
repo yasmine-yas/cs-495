@@ -70,7 +70,7 @@
                                     <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Names="Arial" Font-Overline="False" Font-Size="Medium" Font-Underline="True" ForeColor="#003366" NavigateUrl="~/StudentHome.aspx.cs">Home</asp:HyperLink>
                                 </td>
                                 <td class="auto-style12">
-                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Overline="False" Font-Size="Medium" Font-Underline="True" ForeColor="#003366" NavigateUrl="~/StudentAccount.aspx.cs">My Account</asp:HyperLink>
+                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" Font-Names="Arial" Font-Overline="False" Font-Size="Medium" Font-Underline="True" ForeColor="#003366" NavigateUrl="~/StudentAccount.aspx">My Account</asp:HyperLink>
                                 </td>
                                 <td class="auto-style11">
                                     <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" Font-Names="Arial" Font-Overline="False" Font-Size="Medium" Font-Underline="True" ForeColor="#003366" NavigateUrl="~/StudentAttendance.aspx">My Attendance</asp:HyperLink>
