@@ -22,7 +22,7 @@ namespace Regestration
             SqlConnection conn = new SqlConnection();
 
             conn.ConnectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename =|DataDirectory|Project.mdf; Integrated Security = True";
-            
+
             //create insert statment
 
 
@@ -37,19 +37,45 @@ namespace Regestration
             //execute the sql command 
             //cmdInsert.ExecuteNonQuery();
 
-            
+            try
+            {
+
+               // int x = 0, y = 0 , z;
+
                 conn.Open();
                 cmdInsert.ExecuteNonQuery();
                 conn.Close();
 
-          
+
 
 
                 lblMsg.Text = "Welcome" + " " + txtLname.Text + "your account has been created successfully";
-          
+            }
+            catch (SqlException err)
+            {
+                if (err.Number == 2627)
+                {
+                    lblMsg.Text = "the username" + TxtUser.Text + "alreaady used , please enter new one";
 
+                }
+                else
+                {
+                    lblMsg.Text = "sorry database problem , please try later";
+                }
+
+            }
+
+            catch
+            {
+                lblMsg.Text = " sorry , system is not available at the moment , you may try later";
+            }
 
         }
+
+
+       
+
+   
 
         protected void TxtFname_TextChanged(object sender, EventArgs e)
         {

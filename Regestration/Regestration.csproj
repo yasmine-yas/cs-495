@@ -108,8 +108,14 @@
     <Content Include="webImages\FUE LOGO.jpg" />
     <Content Include="webImages\OIP %281%29.jpg" />
     <Content Include="webImages\OIP %282%29.jpg" />
+    <Content Include="webImages\OIP %284%29.jpg" />
+    <Content Include="webImages\OIP %285%29.jpg" />
+    <Content Include="webImages\OIP %286%29.jpg" />
+    <Content Include="webImages\OIP %287%29.jpg" />
+    <Content Include="webImages\OIP %288%29.jpg" />
     <Content Include="webImages\OIP.jpg" />
     <Content Include="webIndex.aspx" />
+    <Content Include="WEBSignUp.aspx" />
     <Content Include="WEBVideo.html" />
   </ItemGroup>
   <ItemGroup>
@@ -225,6 +231,13 @@
     </Compile>
     <Compile Include="webIndex.aspx.designer.cs">
       <DependentUpon>webIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WEBSignUp.aspx.cs">
+      <DependentUpon>WEBSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WEBSignUp.aspx.designer.cs">
+      <DependentUpon>WEBSignUp.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

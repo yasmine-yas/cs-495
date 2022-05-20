@@ -64,25 +64,30 @@
             width: 240px;
         }
         .auto-style17 {
-            width: 276px;
+            width: 208px;
         }
         .auto-style18 {
             height: 51px;
-            width: 276px;
+            width: 208px;
         }
         .auto-style19 {
             height: 56px;
-            width: 276px;
+            width: 208px;
         }
         .auto-style20 {
             height: 73px;
-            width: 276px;
+            width: 208px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <table class="auto-style1" style="background-color: #808080; background-image: none;">
+            <tr>
+                <td colspan="5">
+                    <asp:Label ID="Label22" runat="server" Font-Bold="True" Font-Italic="True" Font-Names="Blackadder ITC" Font-Size="X-Large" Font-Strikeout="False" ForeColor="#990000" Text="Sign UP Form"></asp:Label>
+                </td>
+            </tr>
             <tr>
                 <td class="auto-style2">
                     <asp:Label ID="Label1" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="First Name"></asp:Label>
