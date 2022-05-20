@@ -47,6 +47,12 @@ namespace Regestration
                 conn.Close();
 
 
+                //7- Save user picture
+                if (fupPic.HasFiles)
+                {
+                    fupPic.SaveAs(Server.MapPath("userPic") + "\\" + TxtUser.Text + "jpg");
+                }
+
 
 
                 lblMsg.Text = "Welcome" + " " + txtLname.Text + "your account has been created successfully";
