@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Regestration
 {
-    public partial class StudentHome : System.Web.UI.Page
+    public partial class StudentMaster : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

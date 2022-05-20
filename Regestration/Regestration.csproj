@@ -74,11 +74,19 @@
     <Content Include="App_Data\Project_log.ldf">
       <DependentUpon>Project.mdf</DependentUpon>
     </Content>
-    <Content Include="AssistantHome.aspx" />
+    <Content Include="AsistantHome.aspx" />
+    <Content Include="AssistantAccount.aspx" />
+    <Content Include="AssistantAttendance.aspx" />
+    <Content Include="AssistantCourse.aspx" />
+    <Content Include="AssistantGradeds.aspx" />
     <Content Include="attendence.aspx" />
     <Content Include="Background.aspx" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
+    <Content Include="DoctorAccount.aspx" />
+    <Content Include="DoctorAttendance.aspx" />
+    <Content Include="DoctorCourse.aspx" />
+    <Content Include="DoctorGrades.aspx" />
     <Content Include="DoctorHome.aspx" />
     <Content Include="Footer.html" />
     <Content Include="FUE LOGO.jpg" />
@@ -104,10 +112,10 @@
     <Content Include="StudentAttendance.aspx" />
     <Content Include="StudentCourse.aspx" />
     <Content Include="StudentGrades.aspx" />
+    <Content Include="StudentHome.aspx" />
     <Content Include="Studentprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
-    <Content Include="StudentHome.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="webImages.html" />
     <Content Include="webImages\Banner-FUE-Europe-cole2short.jpg" />
@@ -126,12 +134,40 @@
     <Content Include="WEBVideo.html" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssistantHome.aspx.cs">
-      <DependentUpon>AssistantHome.aspx</DependentUpon>
+    <Compile Include="AsistantHome.aspx.cs">
+      <DependentUpon>AsistantHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AssistantHome.aspx.designer.cs">
-      <DependentUpon>AssistantHome.aspx</DependentUpon>
+    <Compile Include="AsistantHome.aspx.designer.cs">
+      <DependentUpon>AsistantHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssistantAccount.aspx.cs">
+      <DependentUpon>AssistantAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantAccount.aspx.designer.cs">
+      <DependentUpon>AssistantAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssistantAttendance.aspx.cs">
+      <DependentUpon>AssistantAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantAttendance.aspx.designer.cs">
+      <DependentUpon>AssistantAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssistantCourse.aspx.cs">
+      <DependentUpon>AssistantCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantCourse.aspx.designer.cs">
+      <DependentUpon>AssistantCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssistantGradeds.aspx.cs">
+      <DependentUpon>AssistantGradeds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantGradeds.aspx.designer.cs">
+      <DependentUpon>AssistantGradeds.aspx</DependentUpon>
     </Compile>
     <Compile Include="attendence.aspx.cs">
       <DependentUpon>attendence.aspx</DependentUpon>
@@ -160,6 +196,34 @@
     </Compile>
     <Compile Include="coursepage.aspx.designer.cs">
       <DependentUpon>coursepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorAccount.aspx.cs">
+      <DependentUpon>DoctorAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorAccount.aspx.designer.cs">
+      <DependentUpon>DoctorAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorAttendance.aspx.cs">
+      <DependentUpon>DoctorAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorAttendance.aspx.designer.cs">
+      <DependentUpon>DoctorAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorCourse.aspx.cs">
+      <DependentUpon>DoctorCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorCourse.aspx.designer.cs">
+      <DependentUpon>DoctorCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorGrades.aspx.cs">
+      <DependentUpon>DoctorGrades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorGrades.aspx.designer.cs">
+      <DependentUpon>DoctorGrades.aspx</DependentUpon>
     </Compile>
     <Compile Include="DoctorHome.aspx.cs">
       <DependentUpon>DoctorHome.aspx</DependentUpon>
@@ -253,6 +317,27 @@
     <Compile Include="StudentGrades.aspx.designer.cs">
       <DependentUpon>StudentGrades.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentHome.aspx.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentHome.aspx.designer.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorMaster.Master.cs">
+      <DependentUpon>DoctorMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorMaster.Master.designer.cs">
+      <DependentUpon>DoctorMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AssistantMaster.Master.cs">
+      <DependentUpon>AssistantMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantMaster.Master.designer.cs">
+      <DependentUpon>AssistantMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="StudentMaster.Master.cs">
       <DependentUpon>StudentMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -273,13 +358,6 @@
     </Compile>
     <Compile Include="WebDesign.aspx.designer.cs">
       <DependentUpon>WebDesign.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StudentHome.aspx.cs">
-      <DependentUpon>StudentHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="StudentHome.aspx.designer.cs">
-      <DependentUpon>StudentHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
@@ -307,6 +385,8 @@
     <Content Include=".editorconfig" />
     <None Include="packages.config" />
     <Content Include="StudentMaster.Master" />
+    <Content Include="DoctorMaster.Master" />
+    <Content Include="AssistantMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

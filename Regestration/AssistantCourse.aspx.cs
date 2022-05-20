@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Regestration
 {
-    public partial class AssistantHome : System.Web.UI.Page
+    public partial class AssistantCourse : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
