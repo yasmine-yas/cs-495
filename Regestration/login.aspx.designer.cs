@@ -33,13 +33,13 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// TextBox2 control.
+        /// TxtUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TxtUserName;
 
         /// <summary>
         /// Label4 control.
@@ -51,12 +51,30 @@ namespace Regestration
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// txtPassword0 control.
+        /// TxtPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword0;
+        protected global::System.Web.UI.WebControls.TextBox TxtPassword;
+
+        /// <summary>
+        /// btnLogin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogin;
+
+        /// <summary>
+        /// lblMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMsg;
     }
 }
