@@ -46,12 +46,23 @@ namespace Regestration
 
             //6- select command
             reader = cmdSelect.ExecuteReader();
-            
-            
+
+
             //check reader
-            if(reader.Read())
+            if (reader.Read())
             {
-                Response.Redirect("~/userHome.aspx");
+                if (TxtUserName.Text == "Student2022")
+                {
+                    Response.Redirect("~/StudentHome.aspx");
+                }
+                else if ( TxtUserName.Text == "Doctor2022")
+                {
+                    Response.Redirect("~/DoctorHome.aspx");
+                }
+                else
+                {
+                    Response.Redirect("~/AssistantHome.aspx");
+                }
             }
             else
             {

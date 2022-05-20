@@ -74,10 +74,12 @@
     <Content Include="App_Data\Project_log.ldf">
       <DependentUpon>Project.mdf</DependentUpon>
     </Content>
+    <Content Include="AssistantHome.aspx" />
     <Content Include="attendence.aspx" />
     <Content Include="Background.aspx" />
     <Content Include="ComputerArchticrure.aspx" />
     <Content Include="coursepage.aspx" />
+    <Content Include="DoctorHome.aspx" />
     <Content Include="Footer.html" />
     <Content Include="FUE LOGO.jpg" />
     <Content Include="home.html" />
@@ -99,7 +101,7 @@
     <Content Include="SignaUpp.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Studentprofile.aspx" />
-    <Content Include="userHome.aspx" />
+    <Content Include="StudentHome.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebDesign.aspx" />
     <Content Include="WebForm2.aspx" />
@@ -120,6 +122,13 @@
     <Content Include="WEBVideo.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssistantHome.aspx.cs">
+      <DependentUpon>AssistantHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssistantHome.aspx.designer.cs">
+      <DependentUpon>AssistantHome.aspx</DependentUpon>
+    </Compile>
     <Compile Include="attendence.aspx.cs">
       <DependentUpon>attendence.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,6 +156,13 @@
     </Compile>
     <Compile Include="coursepage.aspx.designer.cs">
       <DependentUpon>coursepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorHome.aspx.cs">
+      <DependentUpon>DoctorHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorHome.aspx.designer.cs">
+      <DependentUpon>DoctorHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="linksWEB.aspx.cs">
       <DependentUpon>linksWEB.aspx</DependentUpon>
@@ -212,12 +228,12 @@
     <Compile Include="Studentprofile.aspx.designer.cs">
       <DependentUpon>Studentprofile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="userHome.aspx.cs">
-      <DependentUpon>userHome.aspx</DependentUpon>
+    <Compile Include="StudentHome.aspx.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="userHome.aspx.designer.cs">
-      <DependentUpon>userHome.aspx</DependentUpon>
+    <Compile Include="StudentHome.aspx.designer.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebDesign.aspx.cs">
       <DependentUpon>WebDesign.aspx</DependentUpon>

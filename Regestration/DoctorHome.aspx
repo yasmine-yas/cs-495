@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="userHome.aspx.cs" Inherits="Regestration.userHome" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DoctorHome.aspx.cs" Inherits="Regestration.DoctorHome" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,6 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="home"></asp:Label>
         </div>
     </form>
 </body>

@@ -55,13 +55,13 @@ namespace Regestration
 
 
 
-                lblMsg.Text = "Welcome" + " " + txtLname.Text + "your account has been created successfully";
+                lblMsg.Text = "Welcome" + " " + TxtFname.Text + "your account has been created successfully";
             }
             catch (SqlException err)
             {
                 if (err.Number == 2627)
                 {
-                    lblMsg.Text = "the username" + TxtUser.Text + "alreaady used , please enter new one";
+                    lblMsg.Text = "the username" + TxtUser.Text + " "+  "alreaady used , please enter new one";
 
                 }
                 else
