@@ -70,10 +70,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Project.mdf" />
-    <Content Include="App_Data\Project_log.ldf">
-      <DependentUpon>Project.mdf</DependentUpon>
-    </Content>
     <Content Include="AsistantHome.aspx" />
     <Content Include="AssistantAccount.aspx" />
     <Content Include="AssistantAttendance.aspx" />
