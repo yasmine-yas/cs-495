@@ -308,6 +308,24 @@
                 <td class="auto-style4">
                     &nbsp;</td>
             </tr>
+            <tr>
+                <td class="auto-style3">
+                    <asp:Label ID="Label24" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Department"></asp:Label>
+                </td>
+                <td class="auto-style12">
+                    <asp:DropDownList ID="ddlRole" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
+                        <asp:ListItem>Student</asp:ListItem>
+                        <asp:ListItem>Assistant</asp:ListItem>
+                        <asp:ListItem>Doctor</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+                <td class="auto-style16">
+                    &nbsp;</td>
+                <td class="auto-style20">
+                    &nbsp;</td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+            </tr>
         </table>
         <div>
         </div>
