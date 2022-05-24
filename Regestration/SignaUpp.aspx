@@ -1,6 +1,8 @@
-﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignaUpp.aspx.cs" Inherits="Regestration.SignaUpp" %>--%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignaUpp.aspx.cs" Inherits="Regestration.SignaUpp" %>
 
 <!DOCTYPE html>
+
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
