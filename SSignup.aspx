@@ -1,6 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignaUpp.aspx.cs" Inherits="Regestration.SignaUpp" %>
+﻿<%@ Page Language="VB" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    Protected Sub btnSubmit_Click(sender As Object, e As EventArgs)
+
+    End Sub
+</script>
+
 
 
 
@@ -8,15 +15,56 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
+
         .auto-style1 {
             width: 100%;
         }
         .auto-style2 {
             width: 347px;
         }
+        .auto-style9 {
+            width: 326px;
+        }
+        .auto-style13 {
+            width: 240px;
+        }
+        .auto-style17 {
+            width: 208px;
+        }
+        .auto-style7 {
+            width: 347px;
+            height: 51px;
+        }
+        .auto-style10 {
+            height: 51px;
+            width: 326px;
+        }
+        .auto-style14 {
+            height: 51px;
+            width: 240px;
+        }
+        .auto-style18 {
+            height: 51px;
+            width: 208px;
+        }
+        .auto-style8 {
+            height: 51px;
+        }
         .auto-style3 {
             width: 347px;
             height: 73px;
+        }
+        .auto-style12 {
+            height: 73px;
+            width: 326px;
+        }
+        .auto-style16 {
+            height: 73px;
+            width: 240px;
+        }
+        .auto-style20 {
+            height: 73px;
+            width: 208px;
         }
         .auto-style4 {
             height: 73px;
@@ -25,65 +73,28 @@
             width: 347px;
             height: 56px;
         }
-        .auto-style6 {
-            height: 56px;
-        }
-        .auto-style7 {
-            width: 347px;
-            height: 51px;
-        }
-        .auto-style8 {
-            height: 51px;
-        }
-        .auto-style9 {
-            width: 326px;
-        }
-        .auto-style10 {
-            height: 51px;
-            width: 326px;
-        }
         .auto-style11 {
             height: 56px;
             width: 326px;
-        }
-        .auto-style12 {
-            height: 73px;
-            width: 326px;
-        }
-        .auto-style13 {
-            width: 240px;
-        }
-        .auto-style14 {
-            height: 51px;
-            width: 240px;
         }
         .auto-style15 {
             height: 56px;
             width: 240px;
         }
-        .auto-style16 {
-            height: 73px;
-            width: 240px;
-        }
-        .auto-style17 {
-            width: 208px;
-        }
-        .auto-style18 {
-            height: 51px;
-            width: 208px;
-        }
         .auto-style19 {
             height: 56px;
             width: 208px;
         }
-        .auto-style20 {
-            height: 73px;
-            width: 208px;
+        .auto-style6 {
+            height: 56px;
+        }
+        .auto-style21 {
+            height: 26px;
         }
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form2" runat="server">
         <table class="auto-style1" style="background-color: #808080; background-image: none;">
             <tr>
                 <td colspan="5">
@@ -95,7 +106,7 @@
                     <asp:Label ID="Label1" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="First Name"></asp:Label>
                 </td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="TxtFname" runat="server" OnTextChanged="TxtFname_TextChanged"></asp:TextBox>
+                    <asp:TextBox ID="TxtFname" runat="server" ></asp:TextBox>
                     <br />
                     <font face="arial"color="#00FF00" size="-1">Example:Ahmed or Abdel Rahman</font>
                     
@@ -205,6 +216,7 @@
             <tr>
                 <td class="auto-style2">
                     <asp:Label ID="Label15" runat="server" BackColor="#006666" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="White" Text="Country"></asp:Label>
+                    <asp:Button ID="Button1" runat="server" Text="Button" />
                 </td>
                 <td class="auto-style9">
                     <asp:DropDownList ID="ddlCountry" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666">
@@ -334,12 +346,12 @@
         <table class="auto-style1">
             <tr>
                 <td>
-                    <asp:Button ID="btnSubmit" runat="server" BackColor="#006666" Font-Bold="True" Font-Size="Large" ForeColor="White" Text="Submit" OnClick="btnSubmit_Click" />
+                    <asp:Button ID="btnSSubmit" runat="server" BackColor="#006666" Font-Bold="True" Font-Size="Large" ForeColor="White" Text="Submit" OnClick="btnSubmit_Click" />
                 </td>
             </tr>
             <tr>
-                <td>
-                    &nbsp;</td>
+                <td class="auto-style21">
+                    </td>
             </tr>
             <tr>
                 <td>
@@ -347,6 +359,10 @@
                 </td>
             </tr>
         </table>
+    </form>
+    <form id="form1" runat="server">
+        <div>
+        </div>
     </form>
 </body>
 </html>
